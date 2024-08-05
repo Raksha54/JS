@@ -1,0 +1,13 @@
+let naame='rakshi';
+let age=30;
+
+//instead of writing it seperately we can make an object of these two properties named age and name 
+//so we give two keys age and name which are props and value to them
+let person={
+    naame:'rakshi',
+    age:30
+}
+
+//doing this we need not find variables again and again we can just log person
+
+console.log(person);
