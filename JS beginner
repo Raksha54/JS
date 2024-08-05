@@ -1,0 +1,95 @@
+let naame='raksha';
+console.log(naame);
+
+let interestRate = 0.3;
+interestRate = 2;
+console.log(interestRate);//variable since it keeps chnaging
+
+
+//so we use constants
+const intr=20;
+intr=23;
+console.log(intr); //we get error*/
+
+
+let myName='rakshi';//string literal
+console.log(myName);
+let age= 30;//number literal
+console.log(age);
+let go=false;//keyword of true and false
+console.log(go);
+let firstName= undefined;//not known
+console.log(firstName);
+let selectedColour=null;//not known yet colour but in future the null may be changed to another colour
+
+
+//TYPEOF null is object
+//what is an object?
+
+let naame1='rakshi';
+let age1=30;
+
+//instead of writing it seperately we can make an object of these two properties named age and name 
+//so we give two keys age and name which are props and value to them
+let person={
+    naame:'rakshi',
+    age:30
+}
+
+//doing this we need not find variables again and again we can just log person
+
+console.log(person);
+
+let selectedColours=[]; //empty array lietal
+selectedColours=['red','blue'];
+console.log(selectedColours);
+console.log(selectedColours[0]);
+
+//since it is dynamic we can add one more elment
+selectedColours[2]='pink';
+console.log(selectedColours);
+
+//array is hetergogeneous in js
+let props=[];
+props=[20,30,'bandra'];
+console.log(props);
+
+//proprties of array can be retrived using dot operator
+console.log(props.length);
+
+
+
+
+//functions in java
+
+function greet1(){
+    console.log('hi guys');
+}
+
+greet1();
+
+function greet2(names){
+    console.log('hi ' +names);
+} //name is a parameter of greet function
+
+greet2('rustyn'); //rustyn is an an argument to greet function
+//argument is something we supply to parameter to make it work
+
+function greet3(a,b){
+    console.log('hi guys '+a+' '+b);
+}
+
+greet3('raks','tax');
+
+
+function square(number)
+{
+   return  number*number;
+}
+
+let number=square(30);
+console.log(number);
+
+//or
+
+console.log(square(2));
